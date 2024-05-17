@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WebApplication2.Models.Department>
+@{
+
+    ViewBag.Title = "Department API";
+
+}
+
+
+
+<div class="form-horizontal">
+
+    <hr />
+
+    <div class="form-group">
+
+        <table class="table table-responsive" style="width:400px">
+
+            <tr>
+
+                <th>
+
+                    Department ID
+
+                </th>
+
+                <th>
+
+                    Department Name
+
+                </th>
+
+            </tr>
+
+            @foreach (var item in Model)
+
+            {
+
+                <tr>
+
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.DepartmentId)
+
+                    </td>
+
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.DepartmentName)
+
+                    </td>
+
+                </tr>
+
+            }
+
+        </table>
+
+    </div>
+
+</div>

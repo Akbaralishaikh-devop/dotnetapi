@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hJHOfHJQ+okiA8cBkLZVPoIJ8MgoUkYBLHmk7mbAvi8R5O+6+zHxxUWS/jSiphL8o8NQMZdv1g+gPIc7iZwpsA==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet 17-05-2024\\latest.necontroller-main\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AKBARALI\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
